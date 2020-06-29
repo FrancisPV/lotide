@@ -9,4 +9,4 @@ let map = function(array, callback) {
   return results;
 }
 
-const results1 = map(words, word => word[0]);
+module.exports = map;

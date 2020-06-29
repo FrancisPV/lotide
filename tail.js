@@ -1,7 +1,9 @@
-
 const tail = function(elements) {
-  return elements.pop();
+  let output = [];
+  output.push(elements.pop());
+  return elements;
 };
+
 
 
 module.exports = tail;

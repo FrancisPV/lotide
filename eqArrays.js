@@ -8,5 +8,5 @@ let eqArrays = function(firstArray, secondArray) {
   }
   return true
 }
-module.exports = eqArrays;
 
+module.exports = eqArrays;

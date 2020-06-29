@@ -1,11 +1,3 @@
-const letterPositions = function(sentence) {
-  const results = {};
-  // logic to update results here
-  return results;
-};
-
-const string = 'Lighthouse in the house'
-
 const indexPosition = function(str) {
   let result = {};
   for (let i in str) {
@@ -21,4 +13,4 @@ const indexPosition = function(str) {
   return result;
 }
 
-console.log(indexPosition(string))
+module.exports = indexPosition;

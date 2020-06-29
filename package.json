@@ -1,0 +1,22 @@
+{
+  "name": "@francispv/lotide",
+  "version": "1.0.0",
+  "description": "An homemade lodash",
+  "main": "assertArrayEquals.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancisPV/lotide.git"
+  },
+  "author": "Francis Pellerin-Venne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrancisPV/lotide/issues"
+  },
+  "homepage": "https://github.com/FrancisPV/lotide#readme"
+}

@@ -1,25 +1,3 @@
-let eqArrays = function(firstArray, secondArray) {
-  for (let i = 0; i < firstArray.length; i++) {
-    if (firstArray[i] !== secondArray[i]) {
-      return false
-    } else if (firstArray.length !== secondArray.length) {
-      return false
-    }
-  }
-  return true
-}
-
-let assertArraysEquals = function(firstArray, secondArray) {
-  for (let i = 0; i < firstArray.length; i++) {
-    if (firstArray[i] !== secondArray[i]) {
-      console.log(`🛑🛑🛑 Assertion Failed: "${firstArray}" !== "${secondArray}"`);
-    } else if (firstArray.length !== secondArray.length) {
-      console.log(`🛑🛑🛑 Assertion Failed: "${firstArray}" !== "${secondArray}"`);
-    }
-  }
-  return `✅✅✅ Assertion Passed: ${firstArray} === ${secondArray}`;
-}
-
 let flatten = function(arrays) {
   filteredArray = [];
   flattenedArray = [];
@@ -38,4 +16,4 @@ let flatten = function(arrays) {
   return flattenedArray
 }
 
-console.log(flatten([1, 2, [3, 4], 5, [6]])) // => [1, 2, 3, 4, 5, 6]
+module.exports = flatten;

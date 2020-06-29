@@ -7,8 +7,6 @@ const planet = {
   "Akelarre": { stars: 3 },
 }
 
-const findTwoStars = x => x.stars === 2
-
 let findKey = function(object, callbacks) {
   let result = [];
   for (let i in object) {
@@ -20,8 +18,4 @@ let findKey = function(object, callbacks) {
   return result.join();
 }
 
-
-
-
-console.log(findKey(planet, callbacks));
-
+module.exports = findKey;
