@@ -1,15 +1,3 @@
-const firstNames = [
-  "Karl",
-  "Salima",
-  "Agouhanna",
-  "Fang",
-  "Kavith",
-  "Jason",
-  "Salima",
-  "Fang",
-  "Joe"
-];
-
 const countOnly = function(allItems, itemsToCount) {
   const results = {};
 

@@ -1,6 +1,3 @@
-
-const words = ["ground", "control", "to", "major", "tom"];
-
 let map = function(array, callback) {
   const results = [];
   for (let item of array) {
